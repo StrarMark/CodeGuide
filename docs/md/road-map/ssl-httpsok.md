@@ -173,14 +173,15 @@ version: '3.9'
 services:
   # yum install -y httpd-tools
   nginx:
-    image: registry.cn-hangzhou.aliyuncs.com/xfg-studio/nginx:latest
+    image: registry.cn-hangzhou.aliyuncs.com/xfg-studio/nginx:1.28.0-alpine	#原镜像，如果代理不可用可替换 httpsok/nginx:1.28.0-alpine
     container_name: nginx
     restart: always
     ports:
       - '443:443'
       - '80:80'
     environment:
-      HTTPSOK: https://httpsok.com/console/dashboard 写你的 token curl -s https://get.httpsok.com/ | bash -s 【这里的值】
+      - TZ=Asia/Shanghai
+      - HTTPSOK_TOKEN= https://httpsok.com/console/dashboard 写你的 token curl -s https://get.httpsok.com/ | bash -s 【这里的值】
     volumes:
       - ./nginx/logs:/var/log/nginx
       - ./nginx/html:/usr/share/nginx/html
@@ -191,6 +192,7 @@ services:
 ```
 
 - 官网说明：[https://httpsok.com/doc/faq/docker-nginx.html](https://httpsok.com/doc/faq/docker-nginx.html)
+- 安装说明：安装后在nginx后台执行自动部署脚本，从这里复制 Nginx 脚本 `https://httpsok.com/console/deploy`
 
 ### 2. 上传文件
 

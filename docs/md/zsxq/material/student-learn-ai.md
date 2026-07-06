@@ -8,6 +8,8 @@ lock: no
 作者：小傅哥
 <br/>博客：[https://bugstack.cn](https://bugstack.cn)
 
+> 沉淀、分享、成长，让自己和他人都能有所收获！😄
+
 大家好，我是技术UP主小傅哥。
 
 本篇内容，为伙伴们推荐一套 AI 从认知、应用、实践、八股和面试的全套流程路线，如下，可以参考「所有的项目，都从 [bugstack.cn](https://bugstack.cn/) 实战项目进入学习」；

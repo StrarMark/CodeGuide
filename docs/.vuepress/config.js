@@ -388,7 +388,10 @@ module.exports = {
                                         text: 'AI 新范式（0编码），开发 + 运维（部署、压测、调优）',
                                         link: '/md/project/ai-new-paradigm/ai-new-paradigm.md'
                                     },
-
+                                    {
+                                        text: 'WaLiAPI - 开源 AI LLM LocalGateway 本地网关系统',
+                                        link: '/md/project/waliapi/waliapi.md'
+                                    },
                                 ]
                             },
                             {
@@ -455,7 +458,7 @@ module.exports = {
                                 text: '自学类型', items: [
                                     {
                                         text: '场景案例',
-                                        link: '/md/project/ddd-scene-solution/alipay-sandbox.md'
+                                        link: '/md/project/chatbot-api/chatbot-api.md'
                                     },
                                     {
                                         text: '吉祥外卖',

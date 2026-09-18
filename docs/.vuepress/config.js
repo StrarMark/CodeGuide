@@ -2563,7 +2563,8 @@ function getBarWaLiSSH() {
                 "part-2/第2-7节：ReAct 意图识别与反馈回路.md",
                 "part-2/第2-8节：ReAct 长期记忆和数据召回.md",
                 "part-2/第2-9节：缓存命中与推理使用.md",
-                "none.md",
+                "part-2/第2-10节：子Agent派发.md",
+                "part-2/第2-11节：UI 对接&迭代功能.md",
             ]
         }
     ]
